@@ -1,25 +1,41 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+/* Smartphones ----------- */
+@media (min-width : 320px) {
+    body {
+        font-size: 4px;
+    }
 }
 
-.menu:before {
-  content: "[";
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) {
+    body {
+        font-size: 6px;
+    }
 }
 
-.menu:after {
-  content: "]";
+/* Desktops and laptops ----------- */
+@media (min-width : 1224px) {
+    body {
+        font-size: 10px;
+    }
 }
 
-.menu > li {
-  display: inline;
+/* Large screens ----------- */
+@media (min-width : 1824px) {
+    body {
+        font-size: 14px;
+    }
 }
 
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.rps-image {
+    height: 21.6em;
+    width: 21.6em;
+    padding: 1em 5em;
+}
+
+.rps-container {
+    margin: auto;
+    width: 75%;
+    text-align: center;
 }
