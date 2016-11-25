@@ -44,7 +44,7 @@ Now browse to the app at [`localhost:8000/index.html`][local-app-url].
 
 ### Running Unit Tests
 
-The `angular-seed` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
+The `Rock Papaer Scissors` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
 which we run with the [Karma][karma] test runner. We provide a Karma configuration file to run them.
 
 * The configuration is found at `karma.conf.js`.
