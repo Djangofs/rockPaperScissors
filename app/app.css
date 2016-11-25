@@ -28,7 +28,19 @@
     }
 }
 
-.rps-image {
+.rps-player-image {
+    height: 21.6em;
+    width: 21.6em;
+    padding: 1em 5em;
+    opacity: 0.5;
+}
+
+.rps-player-image:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.rps-comp-image {
     height: 21.6em;
     width: 21.6em;
     padding: 1em 5em;
