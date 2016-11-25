@@ -24,11 +24,5 @@ describe('Controller: HomeViewController', function() {
       expect(HomeViewCtrl).toBeDefined();
     });
 
-    it('should define body text', function() {
-
-      //Assert
-      expect(scope.text).toEqual("Welcome to the Rock Paper Scissors Game");
-    });
-
   });
 });

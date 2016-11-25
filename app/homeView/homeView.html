@@ -1,5 +1,13 @@
 <div ng-controller="HomeViewCtrl">
-  {{text}}
-  Hello
+  <div class="rps-container">
+    <img src="../assets/rock.png" class="rps-image">
+    <img src="../assets/paper.png" class="rps-image">
+    <img src="../assets/scissors.png" class="rps-image">
 
+    <img ng-show="compRock" src="../assets/rock.png" class="rps-image">
+    <img ng-show="compPaper" src="../assets/paper.png" class="rps-image">
+    <img ng-show="compScissors" src="../assets/scissors.png" class="rps-image">
+
+    <rps-engine></rps-engine>
+  </div>
 </div>
