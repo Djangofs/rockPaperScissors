@@ -1,5 +1,9 @@
 <div ng-controller="HomeViewCtrl">
-  {{text}}
-  Hello
-
+  <div class="rps-container">
+    <h1>Player {{playerScore}} - {{compScore}} Computer</h1>
+    <div class="rps-button-wrapper">
+      <button class="rps-button" ng-click="resetScore()">Reset Score</button>
+    </div>
+    <rps-engine></rps-engine>
+  </div>
 </div>

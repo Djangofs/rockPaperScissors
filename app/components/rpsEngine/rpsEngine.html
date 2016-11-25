@@ -1,0 +1,12 @@
+<img src="../assets/rock.png" class="rps-player-image" ng-click="rpsChoose(); _compareChoices('rock'); scoreCount(result)">
+<img src="../assets/paper.png" class="rps-player-image" ng-click="rpsChoose(); _compareChoices('paper'); scoreCount(result)">
+<img src="../assets/scissors.png" class="rps-player-image" ng-click="rpsChoose(); _compareChoices('scissors'); scoreCount(result)">
+
+<img ng-show="compChoice === 'rock'" src="../assets/rock.png" class="rps-comp-image">
+<img ng-show="compChoice === 'paper'" src="../assets/paper.png" class="rps-comp-image">
+<img ng-show="compChoice === 'scissors'" src="../assets/scissors.png" class="rps-comp-image">
+
+<h1 ng-show="result === 'Draw'">Draw! Try again...</h1>
+<h1 ng-show="result === 'Player'">You win! Play some more!</h1>
+<h1 ng-show="result === 'Comp'">You lose! Maybe you should give up...</h1>
+
