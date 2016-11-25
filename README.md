@@ -6,7 +6,7 @@ To get you started you can simply clone the repository and install the dependenc
 
 ### Prerequisites
 
-You need git to clone the `rockPaperScissors repository. You can get git from [here][git].
+You need git to clone the `rockPaperScissors` repository. You can get git from [here][git].
 
 We also use a number of Node.js tools to initialize and test `Rock Paper Scissors`. You must have Node.js
 and its package manager (npm) installed. You can get them from [here][node].
